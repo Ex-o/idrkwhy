@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Not so tasty - 27/10/2019">
+<meta name="keywords" content=" blog">
+<title>Bitter Sweet | Haphazard contemplation of ME!</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<link rel="stylesheet" href="css/lavish-bootstrap.css">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> idrkwhy</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+                
+                
+                
+                <li><a href="">Music List</a></li>
+                
+                
+                
+                <li><a href="contact.html">Contact Me</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                
+                <!--
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:?subject=idrkwhy feedback&body=I have some feedback about the Bitter Sweet page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+
+		
+                <!--comment out this block if you want to hide search-->
+                <!--li>
+                    <start search>
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="Bitter Sweet">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search>
+                </li-->
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+    <div class="col-lg-12">&nbsp;</div>
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav">
+    <li class="sidebarTitle"> </li>
+    
+    
+    
+        
+    
+    <li>
+        <a href="#">2019</a>
+        <ul>
+            
+            
+            
+            <li><a href="18-10-Issues.html">Issues</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="24-10-MoreIssues.html">More Issues</a></li>
+            
+            
+            
+            
+            
+            
+            <li class="active"><a href="27-10-Bitterness.html">Bitterness</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="16-11-Hiatus.html">Hiatus</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="17-11-Whocares.html">Who Cares</a></li>
+            
+            
+            
+            
+        </ul>
+     </li>
+       
+        
+        
+        <!-- if you aren't using the accordion, uncomment this block:
+           <p class="external">
+               <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+           </p>
+           -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">Bitter Sweet</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">Not so tasty - 27/10/2019</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+  <h2 id="yuk">Yuk</h2>
+<div style="text-align: justify">
+
+Yesterday, a competition for programmers was held in my hometown. I was watching the livestream and all I could think of was how are all these people better than me. I don’t understand it and I don’t accept it. I keep telling myself maybe because they work hard and I don’t but it doesn’t convince me. I am just jealous. I know a lot of those people and many are sort of my friends. I still refuse the fact that I might not be as smart. Why? Because I am stupid. I do nothing at all to push myself and I expect to perform better than everyone that does. Why? Because I am entitled. Why? I don’t know. Being aware doesn’t make it less bad though. It’s worse when you know the reasons but still have doubts about why aren’t you doing anything to change them. You start feeling that you’re either useless or just whining. I got the whining part figured out. I am a whiner. 
+<br /><br />
+As I mentioned before, those who get close to me notice that I am a whiner very fast. For example, yesterday, Farah said I complain a lot. Of course she always knew that but I guess yesterday was the first time she called me out for it. How should someone that knows that he’s a whiner react when people call him a whiner? To me at least, it should be fine. But it’s not. You know you’re a whiner but you don’t like being called one. Again, I don’t know why. However, there’s a bright side. Farah is busy and she doesn’t talk to me as much as before. I am just saying she’s busy because that’s probably what I want to believe but she could be bored of talking to me. She already mentioned that I was lame quite a few times already but who knows. I started trying to get more sleep. Six hours from 1 AM to 7 AM every day. Every morning I wake up, get dressed and head to the gym. It’s a free gym membership that comes with my status as a student in this university so I thought I might as well use it right? I am trying to put some more work. It’s not good enough. I am still wasting time. I am writing this so you should get an idea. I listen to music a lot. I wanted to try quiting but I don’t think it’s worth it. I should study more but for some reason or actually I know the reason. I wasn’t too happy that I came to this university as I think it’s not good enough for me (again being arrogant) so I was like screw this and just stayed here doing random stuff. I could go back to Egypt and become a computer engineer but why am I here? Wasting another year maybe. Looks like it’s become an addiction of mine, haha! 
+<br /><br />
+I am also trying to apply to a summer internship at google. I don’t think I’ll pass obviously but why not try. Everyone says just go for stuff and wait. So I am trying this instead of already pre-assuming I’ll fail. Ah, reminds me of something that also happened yesterday. I got the grade for the mathematics midterm exam. I got a full score because I decided to just go for it. There was a question that would be graded by the main professor of the course and I wasn’t sure if I could solve it. Only 15mins were left and I thought I’ll get 15/20 at best if I just leave now without solving that question. Then I decided to write the solution as it probably won’t hurt. I got a 7/7. Not something to be proud of but it was nice. Well I think that’s about it for what happened yesterday. See you later maybe.
+
+## Not yet!
+
+Hi there! The day isn’t done yet but I wanted to tell you more about it. Today was a good day, I am in a somewhat good mood. I haven’t talked to anyone I want sadly but I was able to wake up today at 7 AM again despite sleeping at 2AM. I went to the gym again. My muscles are sore but I don’t care. I still managed to waste many hours doing random stuff but I also don’t care. It should work out soon as long as I keep this routine thing going. I am not on a 4-day streak. I still feel empty that Farah isn’t here but I am managing. Lately I stopped spamming her every other minute. In fact, I don’t think I enjoy being ignored or just talking to myself in case she’s busy. I really admire that she’s focused despite her parents constantly being harsh. I actually love her which is funny. Anyway, I still get occasional spikes of stress when I think about the future and which decisions I made for myself that I might not be able to correct later. They’re decreasing though. I don’t think I am doing anything special these days but I am adapting to whatever this is. A new life methodology that doesn’t depend on others. Others fail you and you have nobody to blame. But if you fail yourself at least you have yourself to blame. So it’s convenient for a whiner like me. I always need something to blame. I am still writing this resume to apply to google. I haven’t talked to my family properly in about 2 weeks. Whenever they call they ask questions that stress me out and I panic. Anyway, that’s all for today. I hope tomorrow will be a good day. 
+<div>
+</div></div>
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'idrkwhy'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2020 idrkwhy. All rights reserved. <br />
+ Site last updated: Aug 23, 2020 <br />
+<p><img src="images/logo.png" alt="logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+    </div>
+
+</body>
+
+</html>

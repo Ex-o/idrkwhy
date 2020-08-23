@@ -1,0 +1,112 @@
+[
+
+
+{
+"title": "Hiatus",
+"tags": "",
+"keywords": "blog",
+"url": "16-11-Hiatus.html",
+"summary": "Can't stick to anything, huh? - 16/11/2019"
+}
+,
+
+
+
+{
+"title": "Who cares",
+"tags": "",
+"keywords": "blog",
+"url": "17-11-Whocares.html",
+"summary": "Keep pretending this matters - 17/11/2019"
+}
+,
+
+
+
+{
+"title": "A start",
+"tags": "",
+"keywords": "blog",
+"url": "18-10-Issues.html",
+"summary": "Who I am - 18/10/2019"
+}
+,
+
+
+
+{
+"title": "High horse",
+"tags": "",
+"keywords": "blog",
+"url": "24-10-MoreIssues.html",
+"summary": "Judging, judging and more judging - 24/10/2019"
+}
+,
+
+
+
+{
+"title": "Bitter Sweet",
+"tags": "",
+"keywords": "blog",
+"url": "27-10-Bitterness.html",
+"summary": "Not so tasty - 27/10/2019"
+}
+,
+
+
+
+
+
+{
+"title": "Contact Information",
+"tags": "",
+"keywords": "contact",
+"url": "contact",
+"summary": "Reach out to me if you have anything to say!"
+}
+,
+
+
+
+
+
+{
+"title": "My blog - diary?",
+"tags": "",
+"keywords": "homepage",
+"url": "index.html",
+"summary": "This is a very unimportant page that wasn't meant to be found yet I hoped would be."
+}
+,
+
+
+
+{
+"title": "Scroll layout",
+"tags": "special_layouts",
+"keywords": "json, scrolling, scrollto, jquery plugin",
+"url": "jsmydoc_scroll.html",
+"summary": "This page demonstrates how you the integration of a script called ScrollTo, which is used here to link definitions of a JSON code sample to a list of definitions for that particular term. The scenario here is that the JSON blocks are really long, with extensive nesting and subnesting, which makes it difficult for tables below the JSON to adequately explain the term in a usable way."
+}
+,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+]

@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Who I am - 18/10/2019">
+<meta name="keywords" content=" blog">
+<title>A start | Haphazard contemplation of ME!</title>
+<link rel="stylesheet" href="css/syntax.css">
+
+
+<link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+<!--<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">-->
+<link rel="stylesheet" href="css/modern-business.css">
+<link rel="stylesheet" href="css/lavish-bootstrap.css">
+<link rel="stylesheet" href="css/customstyles.css">
+<link rel="stylesheet" href="css/theme-blue.css">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-cookie/1.4.1/jquery.cookie.min.js"></script>
+<script src="js/jquery.navgoco.min.js"></script>
+
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/2.0.0/anchor.min.js"></script>
+<script src="js/toc.js"></script>
+<script src="js/customscripts.js"></script>
+<link rel="shortcut icon" href="images/favicon.ico">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link rel="alternate" type="application/rss+xml" title="" href="http://localhost:4000/feed.xml">
+
+    <script>
+        $(document).ready(function() {
+            // Initialize navgoco with default options
+            $("#mysidebar").navgoco({
+                caretHtml: '',
+                accordion: true,
+                openClass: 'active', // open
+                save: false, // leave false or nav highlighting doesn't work right
+                cookie: {
+                    name: 'navgoco',
+                    expires: false,
+                    path: '/'
+                },
+                slide: {
+                    duration: 400,
+                    easing: 'swing'
+                }
+            });
+
+            $("#collapseAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', false);
+            });
+
+            $("#expandAll").click(function(e) {
+                e.preventDefault();
+                $("#mysidebar").navgoco('toggle', true);
+            });
+
+        });
+
+    </script>
+    <script>
+        $(function () {
+            $('[data-toggle="tooltip"]').tooltip()
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+            $("#tg-sb-link").click(function() {
+                $("#tg-sb-sidebar").toggle();
+                $("#tg-sb-content").toggleClass('col-md-9');
+                $("#tg-sb-content").toggleClass('col-md-12');
+                $("#tg-sb-icon").toggleClass('fa-toggle-on');
+                $("#tg-sb-icon").toggleClass('fa-toggle-off');
+            });
+        });
+    </script>
+    
+
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container topnavlinks">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="fa fa-home fa-lg navbar-brand" href="index.html">&nbsp;<span class="projectTitle"> idrkwhy</span></a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <!-- toggle sidebar button -->
+                <li><a id="tg-sb-link" href="#"><i id="tg-sb-icon" class="fa fa-toggle-on"></i> Nav</a></li>
+                <!-- entries without drop-downs appear here -->
+                
+                
+                
+                <li><a href="">Music List</a></li>
+                
+                
+                
+                <li><a href="contact.html">Contact Me</a></li>
+                
+                
+                
+                <!-- entries with drop-downs appear here -->
+                <!-- conditional logic to control which topnav appears for the audience defined in the configuration file.-->
+                
+                
+                
+                <!--
+			<li>
+
+
+
+  <a class="email" title="Submit feedback" href="#" onclick="javascript:window.location='mailto:?subject=idrkwhy feedback&body=I have some feedback about the A start page: ' + window.location.href;"><i class="fa fa-envelope-o"></i> Feedback</a>
+
+</li>
+
+		
+                <!--comment out this block if you want to hide search-->
+                <!--li>
+                    <start search>
+                    <div id="search-demo-container">
+                        <input type="text" id="search-input" placeholder="search...">
+                        <ul id="results-container"></ul>
+                    </div>
+                    <script src="js/jekyll-search.js" type="text/javascript"></script>
+                    <script type="text/javascript">
+                            SimpleJekyllSearch.init({
+                                searchInput: document.getElementById('search-input'),
+                                resultsContainer: document.getElementById('results-container'),
+                                dataSource: 'search.json',
+                                searchResultTemplate: '<li><a href="{url}" title="A start">{title}</a></li>',
+                    noResultsText: 'No results found.',
+                            limit: 10,
+                            fuzzy: true,
+                    })
+                    </script>
+                    <!--end search>
+                </li-->
+            </ul>
+        </div>
+        </div>
+        <!-- /.container -->
+</nav>
+
+<!-- Page Content -->
+<div class="container">
+    <div class="col-lg-12">&nbsp;</div>
+    <!-- Content Row -->
+    <div class="row">
+        
+        
+            <!-- Sidebar Column -->
+            <div class="col-md-3" id="tg-sb-sidebar">
+                
+
+
+
+
+
+
+
+
+
+
+
+
+<ul id="mysidebar" class="nav">
+    <li class="sidebarTitle"> </li>
+    
+    
+    
+        
+    
+    <li>
+        <a href="#">2019</a>
+        <ul>
+            
+            
+            
+            <li class="active"><a href="18-10-Issues.html">Issues</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="24-10-MoreIssues.html">More Issues</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="27-10-Bitterness.html">Bitterness</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="16-11-Hiatus.html">Hiatus</a></li>
+            
+            
+            
+            
+            
+            
+            <li><a href="17-11-Whocares.html">Who Cares</a></li>
+            
+            
+            
+            
+        </ul>
+     </li>
+       
+        
+        
+        <!-- if you aren't using the accordion, uncomment this block:
+           <p class="external">
+               <a href="#" id="collapseAll">Collapse All</a> | <a href="#" id="expandAll">Expand All</a>
+           </p>
+           -->
+</ul>
+
+<!-- this highlights the active parent class in the navgoco sidebar. this is critical so that the parent expands when you're viewing a page. This must appear below the sidebar code above. Otherwise, if placed inside customscripts.js, the script runs before the sidebar code runs and the class never gets inserted.-->
+<script>$("li.active").parents('li').toggleClass("active");</script>
+
+            </div>
+            
+        
+
+        <!-- Content Column -->
+        <div class="col-md-9" id="tg-sb-content">
+            <div class="post-header">
+   <h1 class="post-title-main">A start</h1>
+</div>
+
+
+
+<div class="post-content">
+
+   
+    <div class="summary">Who I am - 18/10/2019</div>
+   
+
+    
+    
+<!-- this handles the automatic toc. use ## for subheads to auto-generate the on-page minitoc. if you use html tags, you must supply an ID for the heading element in order for it to appear in the minitoc. -->
+<script>
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
+$('#toc').toc({ minimumHeaders: 0, listType: 'ul', showSpeed: 0, headers: 'h2,h3,h4' });
+
+/* this offset helps account for the space taken up by the floating toolbar. */
+$('#toc').on('click', 'a', function() {
+  var target = $(this.getAttribute('href'))
+    , scroll_target = target.offset().top
+
+  $(window).scrollTop(scroll_target - 10);
+  return false
+})
+  
+});
+</script>
+
+<div id="toc"></div>
+
+    
+
+
+    
+
+  <h2 id="me">Me</h2>
+
+<div style="text-align: justify">
+Today I decided to start writing. I have no idea if someone is ever going to be reading this or if I will keep doing this for some time but, here we are. I am Khaled, nice to meet you, or not. I am writing this at the lowest point in my 20 years of life, at least the lowest so far. 
+<br /><br />
+Why am I writing this? Perhaps it’s a cry-out for help as I think I need it. Before you jump to conclusions, I will try therapy so let’s not talk about it for a while. 
+<br /><br />
+
+So I think since you’re reading this it’s only fair that I tell you a little bit about myself and how I got here, only if you’re interested of course. Again, I am Khaled. A 20-year-old Egyptian guy who lived in Alexandria for as long as I can remember. I have no particular hobbies. No interests either. I don’t have that many friends and the ones I had either don’t talk to me anymore or aren’t as close. I have a small family. My dad owns a small company that sells some medical equipment. My mom is a stay-home house wife. I also have a brother and a sister that are younger than me by not that much. We’re not close but they love me and I can’t say I don’t feel the same about them. However, we’re also not close. I have ever been close with 2 or three people which I guess I would tell you about soon. 
+<br /><br />
+
+Okay so what do I do? I can’t answer that without having to explain some stuff but I’ll try to do it briefly. I do nothing. I am a failure. Simple. I am currently studying Computer Science in some university in Russia after I graduated high school last year. Yes, last year. I am 20 remember? Actually 21 in a few days. So why didn’t I graduate earlier? Because I couldn’t. I was doing very well in school up until my senior year. However, right when it was about to end, I messed up. I decided not to take my final exams and thus, couldn’t graduate. It was complicated. The results of these exams are more of a college entrance exam that you can only take once and depending on your score they either let you in some universities or not. So I had this idea that these exams will decide my future and couldn’t handle that pressure. Not once, but twice. It wasn’t worth it to say the least. I didn’t learn anything from it sadly. How do I know? I am currently doing my first semester in this university and I can’t study anything despite it being very easy.
+<br /><br />
+
+ Okay enough misery let me tell you about some happy parts. My family is nice. Sort of supportive. I don’t know if they have always been but I would guess not. I think they did their job perfectly given their resources. Of course they were ignorant at times and that lead to part of me being miserable but I can’t blame everything on them. I know others who had it worse with their parents and they ended up just fine so it’s on me. So what else. Ah, I had a couple of good friends over the years. I blew some off because I was an arrogant piece of shit. I had this guy during elementary school whose name was Ahmed. He was my rival when it came to grades and stuff. We were close friends, not too close but just I didn’t know that many people and we used to share a desk. We had a small circle of people with us at the center. Or sort of. We were always fighting on who’s going to get higher grades and whatnot. Was pretty fun until that guy stopped being competitive and I started bullying him. Not physically, I am weak. I would tease him about how he got 2 less points than me on a test and that he’s no longer a "good" student. He’d shake it off because he was nice but goddamn, I was a stupid prick. You can probably guess what happened to this guy especially that he switched to another department in our highschool. Before that I met my best friend during the first year of middle school. 
+ <br /><br />
+
+ Hagrass, this guy played a huge role in shaping who I am now. I had met him one time before during some soccer training in our school in grade 6 but, we never talked. We went to the same class for all middle school. We became close friends very quickly and soon he became my only friend in school. I probably know the reasons for that. He was smart, funny, witty and he liked me. There was no reason for us not to be friends especially since he was very competitive in school and maybe he was interested in me since I was the same. I spent what I still think is the best period of my miserable life with him. We’d talk everyday about what we wanted to do. He had an older brother who’s a brilliant guy that everyone knew and respected. He’d tell me about him and about his friends and what they used to do when they were our age. We’d talk about things we read or watched. It was really fun having this sort of connection with someone. To me, he was the only person that gets me. I loved this guy and I’d be lying if I said I no longer do despite not talking to him in over 2 years. The only problem with this bromance was that he knew me too well that he was fed up with all my flaws. I later knew from a mutual friend that he thought I was judgmental, self-centric and just a straight up asshole. He had probably stopped liking being around me for at least two years before he decided not to talk to me again. Smart guy. It happened when I was depressed around senior year. I stopped talking to everyone I knew. I’d go to classes and leave without meeting with anyone. No excuse, no nothing. To them I must have been avoiding them. I wasn’t, I don’t know why I was doing that. Or well I probably know. It must have been that I wanted them to ask me if something was wrong. This is something I noticed I keep repeating whenever I love someone. I always want to confirm that they would notice if I disappeared. I don’t know why I seek such validation every time but, it has happened every single time. Naturally, soon after that, I had nobody to talk to, my depression got worse the closer those final exams approached and at one point everything was fucked. I skipped the finals, lost contact with all my friends including my best friend who decided it was time to end it and said I was too negative to be around. At that point I literally had nobody from school. 
+ <br /><br />
+
+ Everyone was gone. The only people I still knew were guys that are younger than me that I had met in a school competition that my best friend had told me about because his brother joined when he was young. These people were 2-4 years younger than me. Everyone is from a different city and we’d only chat and meet once or twice a year. Funny enough, these are the only people I still talk to even now. And it’s because of these people that I am in Russia studying in this university. Basically, since I had nothing else. This became my life. I met cool people. I even met the only girl I ever liked, Farah. She’s also 4 years younger than me. Which is pretty stupid considering how much I like her. Her classmate who I knew from that competition had told me that she was depressed and that she was sort of like me in some way. Now that I know her, I am not sure how much of that was true but anyway, I told her to introduce me to her as a joke at first. I said maybe if I talk to her I would be able to help her since I come from a similar place. I shouldn’t have done that. At least now I know that. She did introduce me to her. I was really excited about knowing this new person. I like knowing people. Especially if they’re interesting. She was very interesting. I don’t know why but I enjoyed every second of talking to her. There was some weird thrill to it. She was also smart and witty. Apparently my favorite two qualities in a person. I talked to her every single day. I was very obsessed for some reason. All I wanted to do was talk to her and for some time that was all I did actually. She also seemed interested in talking to me. Maybe she had nothing better to do at the time but it didn’t really matter to me. As long as we’d talk it was fine by me. Soon I told her that I like her and she said she also liked me. It was very nice experiencing this for the first time. Especially with someone like her. For a while I forgot about everything that was wrong with my life. I’d wake up and just think of when we’d talk. Go to bed and fall asleep while talking to her. Even dream of her from time to time. I was genuinely happy. Of course nothing lasts forever, especially with me. She started getting less interested in me. Can’t blame her. She’d talk to me less. Also she started being somewhat critical of me. Again, can’t blame her. Until I guess she completely lost interest and it became hard to start a conversation with her without it being very noticeable that she’s not enjoying it. I stopped talking to her. Or she stopped talking to me. It doesn’t matter. We no longer talk. It could be that she’s busy studying since she’s now doing that senior year that fucked me multiple times. I don’t want to give myself hope though so I will just assume she’s fed up with my boring self like anyone should be. I mean even writing this in such a pitiful way seeking sympathy when I deserve none should already give you an idea of what kind of person I am. Well that’s it for this one. I will see you tomorrow.
+</div>
+
+
+    <div class="tags">
+        
+    </div>
+
+
+
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+        var disqus_shortname = 'idrkwhy'; // required: replace example with your forum shortname
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+<hr class="shaded"/>
+
+<footer>
+            <div class="row">
+                <div class="col-lg-12 footer">
+               &copy;2020 idrkwhy. All rights reserved. <br />
+ Site last updated: Aug 23, 2020 <br />
+<p><img src="images/logo.png" alt="logo"/></p>
+                </div>
+            </div>
+</footer>
+
+
+        </div>
+    <!-- /.row -->
+</div>
+<!-- /.container -->
+    </div>
+
+</body>
+
+</html>
